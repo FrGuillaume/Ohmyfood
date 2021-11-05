@@ -202,24 +202,14 @@
   }
   &_legend--icone {
     margin-right: 20px;
-    &.full {
+    & .full {
       color: transparent;
       position: absolute;
       top: 260px;
       transition: 400ms;
-      &:hover {
+      &:active {
         color: $color-secondary;
       }
     }
-  }
-}
-
-.full {
-  color: transparent;
-  position: absolute;
-  top: 260px;
-  transition: 400ms;
-  &:hover {
-    color: $color-secondary;
   }
 }

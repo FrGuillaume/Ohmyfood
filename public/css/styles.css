@@ -216,23 +216,13 @@
 .restaurants_legend--icone {
   margin-right: 20px;
 }
-.restaurants_legend--icone.full {
+.restaurants_legend--icone .full {
   color: transparent;
   position: absolute;
   top: 260px;
   transition: 400ms;
 }
-.restaurants_legend--icone.full:hover {
-  color: #ff79da;
-}
-
-.full {
-  color: transparent;
-  position: absolute;
-  top: 260px;
-  transition: 400ms;
-}
-.full:hover {
+.restaurants_legend--icone .full:active {
   color: #ff79da;
 }
 
