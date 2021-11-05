@@ -173,6 +173,7 @@
 }
 .restaurants_cards {
   margin: auto;
+  position: relative;
   width: 70%;
   height: 300px;
   border-radius: 20px;
@@ -214,6 +215,25 @@
 }
 .restaurants_legend--icone {
   margin-right: 20px;
+}
+.restaurants_legend--icone.full {
+  color: transparent;
+  position: absolute;
+  top: 260px;
+  transition: 400ms;
+}
+.restaurants_legend--icone.full:hover {
+  color: #ff79da;
+}
+
+.full {
+  color: transparent;
+  position: absolute;
+  top: 260px;
+  transition: 400ms;
+}
+.full:hover {
+  color: #ff79da;
 }
 
 .btn {
