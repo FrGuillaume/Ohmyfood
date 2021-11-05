@@ -3,3 +3,22 @@
   justify-content: center;
   align-items: center;
 }
+@mixin columncenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@mixin btn {
+  background: linear-gradient(180deg, $color-secondary 0%, $color-primary 100%);
+  color: white;
+  padding: 0 20px;
+  border-radius: 200px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+@mixin btn_hover {
+  transform: scale(1.03);
+  transition: 0.3s;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}

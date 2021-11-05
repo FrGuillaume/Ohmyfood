@@ -65,3 +65,33 @@
     visibility: hidden;
   }
 }
+
+/* Localisation */
+.location {
+  @include flexcenter;
+  background: $background_location;
+  color: $color_location;
+  &_legend {
+    margin-left: 13px;
+    font-weight: 400;
+  }
+}
+/* Localisation */
+.legend {
+  background: $background_legend;
+  width: 100%;
+  &_contain {
+    width: 100%;
+    padding: 20px;
+    @include columncenter;
+    padding: 50px 0;
+  }
+  &_title {
+    text-align: center;
+    max-width: 250px;
+    margin: 0;
+  }
+  &_text {
+    text-align: center;
+  }
+}
