@@ -142,6 +142,9 @@
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
   background: #f2eafb;
 }
+.function_item:hover .fas {
+  color: #9356dc;
+}
 .function_number {
   background: #9356dc;
   color: white;

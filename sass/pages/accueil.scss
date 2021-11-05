@@ -130,6 +130,9 @@
       transform: scale(1.01);
       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
       background: $light_function;
+      & .fas {
+        color: $color-primary;
+      }
     }
   }
   &_number {
