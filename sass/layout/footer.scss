@@ -1,0 +1,47 @@
+.footer {
+  width: 100%;
+  background: $background_footer;
+  @include flexcenter;
+  &_block {
+    display: inline;
+    padding: 0 40px;
+    width: 100%;
+    &--items {
+      display: inline-flex;
+      flex-direction: column;
+      width: auto;
+    }
+    &--item {
+      display: inline-flex;
+      align-items: center;
+      text-align: center;
+      flex-direction: row;
+      color: white;
+      height: 30px;
+      cursor: pointer;
+      & i {
+        margin-right: 7px;
+      }
+      & a {
+        color: white;
+      }
+      & a:hover {
+        color: $color-secondary;
+      }
+      &:hover {
+        color: $color-secondary;
+      }
+    }
+  }
+  &_logo {
+    font-family: "Shrikhand", cursive;
+    font-size: 20px;
+    padding: 15px 0;
+  }
+  &_logo a {
+    color: white;
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
