@@ -1,0 +1,15 @@
+.header {
+  box-shadow: 0 5px 6px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+  @include flexcenter;
+  height: 80px;
+  width: 100%;
+  & a {
+    text-decoration: none;
+  }
+  &_logo {
+    font-family: "Shrikhand", cursive;
+    margin: 0;
+    color: black;
+  }
+}
