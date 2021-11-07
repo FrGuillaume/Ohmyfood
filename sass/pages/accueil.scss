@@ -207,7 +207,7 @@
       position: absolute;
       top: 260px;
       transition: 400ms;
-      &:active {
+      &:hover {
         color: $color-secondary;
       }
     }
