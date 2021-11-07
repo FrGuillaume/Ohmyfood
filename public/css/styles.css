@@ -226,6 +226,16 @@
   color: #ff79da;
 }
 
+@media screen and (min-width: 800px) {
+  .restaurants_block {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .restaurants_block {
+    flex-direction: row;
+  }
+}
 .main_head {
   position: relative;
   top: 30px;
@@ -369,6 +379,14 @@
   align-items: center;
 }
 
+@media screen and (min-width: 800px) {
+  .choice_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .btn {
   background: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
   color: white;
