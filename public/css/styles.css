@@ -237,15 +237,6 @@
   object-fit: cover;
 }
 
-.main_body {
-  z-index: 1;
-  width: 100%;
-  position: absolute;
-  top: 390px;
-  height: 400px;
-  border-radius: 30px 30px 0 0;
-  background-color: #f6f6f6;
-}
 .main_body--title {
   display: flex;
   justify-content: space-between;
@@ -257,23 +248,30 @@
   font-weight: lighter;
   letter-spacing: 1px;
 }
-.main_body .body_icone {
-  margin-right: 30px;
+
+.body_icone {
+  margin-right: 20px;
+  cursor: pointer;
 }
-.main_body .body_icone .full {
+.body_icone .full {
   position: absolute;
   top: 44px;
   color: transparent;
   transition: 400ms;
-  cursor: pointer;
 }
-.main_body .body_icone .full:hover {
+.body_icone .full:hover {
   color: #ff79da;
 }
 
-.choice {
+main {
+  background: #f3f3f3;
   position: relative;
-  z-index: 10;
+  top: -40px;
+  border-radius: 30px 30px 0 0;
+}
+
+.choice {
+  margin-bottom: 40px;
 }
 .choice_box {
   display: flex;
