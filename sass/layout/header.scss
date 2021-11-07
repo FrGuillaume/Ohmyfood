@@ -13,3 +13,15 @@
     color: black;
   }
 }
+/* Header menus */
+.header_menus {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &--icone {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+  }
+}
