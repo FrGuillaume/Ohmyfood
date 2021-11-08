@@ -237,7 +237,7 @@
 }
 .main_head {
   position: relative;
-  top: 10px;
+  top: 30px;
   width: 100%;
   height: 450px;
   z-index: -1;
@@ -252,7 +252,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 50px;
 }
 .main_body--title h1 {
   margin-left: 40px;
@@ -278,12 +277,11 @@
 .main_block {
   background: #f3f3f3;
   position: relative;
-  top: -100px;
   border-radius: 35px 35px 0 0;
 }
 
 .choice {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 }
 .choice_box {
   display: flex;
@@ -321,18 +319,13 @@
   margin-left: 20px;
   width: 60%;
 }
-.choice_card-body .body_title {
-  width: 100%;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.choice_card-body strong {
+  font-size: 1.4rem;
   white-space: nowrap;
 }
 .choice_card-body .body_litle {
-  width: 100%;
-  font-size: 1rem;
+  font-size: 0.5rem;
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .choice_card-price {
   display: flex;
@@ -379,7 +372,6 @@
 }
 
 .btn_command {
-  padding-top: 50px;
   padding-bottom: 40px;
   display: flex;
   justify-content: center;
@@ -451,7 +443,6 @@ body {
 
 .footer {
   width: 100%;
-  height: 100%;
   background: #353535;
   display: flex;
   justify-content: center;
@@ -500,4 +491,4 @@ body {
   color: #9356dc;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=css.map */
