@@ -166,6 +166,7 @@
     border-radius: 20px;
     margin-bottom: 30px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+    transition: 400ms ease;
   }
   &_cards:hover {
     transform: scale(1.02);
@@ -232,6 +233,7 @@
   .restaurants_title {
     display: flex;
     justify-content: center;
+    font-size: 2rem;
   }
 
   .restaurants_block {
@@ -243,15 +245,38 @@
   .location {
     margin: auto;
     width: 70%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 20px 20px 0 0;
   }
 
   .legend {
     margin: auto;
     width: 70%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 0 0 20px 20px;
+    &_title {
+      font-size: 2rem;
+      max-width: 2000px;
+    }
+    &_text {
+      padding-bottom: 20px;
+    }
   }
 
-  .function_contain {
+  .function {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+    padding: 20px;
     width: 30%;
     margin: auto;
+    background: $background-location;
+  }
+
+  .functiontitle {
+    font-size: 2rem;
+  }
+
+  .opacity2 {
+    animation: opacity 1s both;
   }
 }
