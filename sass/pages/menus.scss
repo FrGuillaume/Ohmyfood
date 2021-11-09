@@ -178,6 +178,17 @@
   animation-delay: 0.9s;
 }
 
+.btn_command {
+  width: 40%;
+  margin: 50px auto;
+  & .btn {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width: 1100px) {
   .mainbox {
     display: flex;
