@@ -30,9 +30,6 @@
   & .main_head-heart {
     padding-right: 10px;
   }
-  & .empty {
-    color: gray;
-  }
   & .full {
     position: absolute;
     top: 74px;
@@ -41,6 +38,9 @@
     cursor: pointer;
     &:hover {
       color: $color-secondary;
+      & .empty {
+        display: none;
+      }
     }
   }
 }
@@ -73,7 +73,9 @@
     border-radius: 25px;
     position: relative;
     cursor: pointer;
+    transition: 200ms ease-in-out;
     &:hover {
+      transform: scale(1.02);
       box-shadow: 0 5px 6px black;
       & .main_price {
         animation: slide-left 400ms both;
