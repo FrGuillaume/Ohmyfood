@@ -4,3 +4,12 @@
     @include btn_hover;
   }
 }
+
+.btn_command {
+  width: 40%;
+  margin: 50px auto;
+  & .btn {
+    font-size: 1.2rem;
+    @include flexcenter;
+  }
+}
