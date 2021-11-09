@@ -589,6 +589,7 @@ body {
 /* Header menus */
 .header_menus {
   position: relative;
+  top: 15px;
   width: 100%;
 }
 .header_menus h1 {
@@ -597,7 +598,7 @@ body {
 }
 .header_menus--icone {
   position: absolute;
-  top: 15px;
+  top: 12px;
   left: 5px;
 }
 
