@@ -18,13 +18,18 @@
 /* Header menus */
 .header_menus {
   height: 80px;
-  @include flexcenter;
   z-index: 5;
   background: white;
   &--icone {
     position: absolute;
     top: 30px;
     left: 10px;
+  }
+  & h1 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
