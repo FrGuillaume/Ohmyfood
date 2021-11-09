@@ -536,8 +536,9 @@
     margin-right: 30px;
   }
 
-  .btn_command {
-    width: 10%;
+  .btn {
+    width: 20%;
+    margin: auto;
   }
 }
 .btn {
