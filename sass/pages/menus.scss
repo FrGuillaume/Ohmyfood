@@ -86,6 +86,9 @@
         border-radius: 0 25px 25px 0;
         width: 20%;
       }
+      & .main_icone i {
+        animation: rotate 400ms both;
+      }
     }
     & .main_flat {
       padding-left: 20px;
@@ -138,6 +141,15 @@
   }
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 #case-1 {
   animation-delay: 0.1s;
 }
@@ -164,4 +176,18 @@
 }
 #case-9 {
   animation-delay: 0.9s;
+}
+
+@media screen and (min-width: 800px) {
+  .main_choice {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .main_block {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+  }
 }
