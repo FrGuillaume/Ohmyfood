@@ -407,6 +407,9 @@
   width: 20%;
   font-weight: bold;
 }
+.main_choice .main_flatandprice .main_price-scale {
+  padding-left: 40px;
+}
 .main_choice .main_flatandprice .main_icone {
   height: 100%;
   position: absolute;
@@ -435,7 +438,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-90%);
   }
 }
 @keyframes opacity {
