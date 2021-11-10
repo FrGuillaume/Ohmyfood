@@ -9,7 +9,7 @@
   right: 0;
   bottom: 0;
   z-index: 30;
-  animation: spinner 1s linear;
+  animation: spinner 1.5s linear;
   visibility: hidden;
   &_border {
     @include flexcenter;
@@ -25,7 +25,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    animation: spinner_border 1s linear;
+    animation: spinner_border 1.5s linear;
     z-index: 20;
     visibility: hidden;
   }
@@ -34,6 +34,13 @@
     height: 15px;
     border-radius: 50%;
     background-color: $color-tertiary;
+    animation: pulse 1.5s infinite;
+  }
+}
+
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 8px $darken_green;
   }
 }
 

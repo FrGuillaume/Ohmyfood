@@ -9,7 +9,7 @@
   right: 0;
   bottom: 0;
   z-index: 30;
-  animation: spinner 1s linear;
+  animation: spinner 1.5s linear;
   visibility: hidden;
 }
 .spinner_border {
@@ -28,7 +28,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  animation: spinner_border 1s linear;
+  animation: spinner_border 1.5s linear;
   z-index: 20;
   visibility: hidden;
 }
@@ -37,8 +37,14 @@
   height: 15px;
   border-radius: 50%;
   background-color: #99e2d0;
+  animation: pulse 1.5s infinite;
 }
 
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 8px #1b6150;
+  }
+}
 @keyframes spinner {
   0% {
     visibility: visible;
