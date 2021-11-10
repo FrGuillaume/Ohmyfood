@@ -180,7 +180,6 @@
     transition: 400ms ease;
   }
   &_cards:hover {
-    transform: scale(1.02);
     box-shadow: 0 0 5px 0 black;
   }
   &_card--image {
@@ -239,6 +238,9 @@
   .restaurants_cards {
     margin: 0;
     width: 20%;
+    &:hover {
+      transform: translateY(-100px);
+    }
   }
 
   .restaurants_title {
