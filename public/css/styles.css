@@ -282,7 +282,7 @@
   }
 
   .function {
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
+    box-shadow: inset 0px 6px 30px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     padding: 20px;
     width: 30%;
@@ -537,8 +537,16 @@
     width: 100%;
   }
 
+  .main_block {
+    box-shadow: inset 20px 20px 10px rgba(0, 0, 0, 0.2);
+  }
+
   .main_choice {
     width: 30%;
+  }
+  .main_choice-title-title {
+    padding-left: 2px;
+    border-left: 4px solid #99e2d0;
   }
 
   .main_flat {
