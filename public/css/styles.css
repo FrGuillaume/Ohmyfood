@@ -145,7 +145,6 @@
   height: 80px;
 }
 .function_item:hover {
-  transform: scale(1.1) translateX(50px);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
   background: #f2eafb;
 }
@@ -253,7 +252,7 @@
     width: 20%;
   }
   .restaurants_cards:hover {
-    transform: translateY(-100px);
+    transform: translateY(-100px) rotate(360deg);
   }
 
   .restaurants_title {
@@ -296,6 +295,9 @@
     width: 30%;
     margin: auto;
     background: #f3f3f3;
+  }
+  .function_item:hover {
+    transform: scale(1.1) translateX(50px);
   }
 
   .functiontitle {
