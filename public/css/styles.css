@@ -131,11 +131,12 @@
   height: 100%;
   width: 100%;
   margin: 10px 20px;
-  border-radius: 20px;
+  border-radius: 25px;
   position: relative;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
   cursor: pointer;
   transition: 0.3s;
+  height: 80px;
 }
 .function_item:hover {
   transform: scale(1.01);
@@ -144,6 +145,9 @@
 }
 .function_item:hover .fas {
   color: #9356dc;
+}
+.function_item p {
+  font-weight: bold;
 }
 .function_number {
   background: #9356dc;
