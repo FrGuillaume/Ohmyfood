@@ -71,7 +71,7 @@
     cursor: pointer;
     transition: 200ms ease-in-out;
     box-shadow: 0 0 5px 0 black;
-    &:hover {
+    &:active {
       transform: scale(1.02);
       box-shadow: 0 5px 6px black;
       & .main_price {
