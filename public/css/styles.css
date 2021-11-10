@@ -145,7 +145,7 @@
   height: 80px;
 }
 .function_item:hover {
-  transform: scale(1.01);
+  transform: scale(1.1) translateX(50px);
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
   background: #f2eafb;
 }
