@@ -237,6 +237,7 @@
   .restaurants_cards {
     margin: 0;
     width: 20%;
+    transition: 0.7s ease-out;
     &:hover {
       transform: translateY(-100px) rotate(360deg);
     }
