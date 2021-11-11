@@ -29,10 +29,18 @@
   }
   & .full {
     position: absolute;
-    top: 74px;
+    top: 48px;
+    right: 22px;
     color: transparent;
     transition: 600ms ease;
     cursor: pointer;
+    border: 1px solid transparent;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
     &:hover {
       color: $color-secondary;
       & .empty {
@@ -273,6 +281,25 @@
       & .main_flat-subtitle {
         width: 60%;
       }
+    }
+  }
+
+  .full {
+    animation: shadow 1.5s ease-in-out infinite;
+  }
+
+  @keyframes shadow {
+    0% {
+      box-shadow: 0px 0px 0px 0px $color-secondary;
+    }
+    33% {
+      box-shadow: 0px 0px 20px 2px $color-secondary;
+    }
+    66% {
+      box-shadow: 0px 0px 20px 4px $color-primary;
+    }
+    100% {
+      box-shadow: 0px 0px 20px 6px $color-primary;
     }
   }
 }

@@ -343,10 +343,18 @@
 }
 .main_title .full {
   position: absolute;
-  top: 74px;
+  top: 48px;
+  right: 22px;
   color: transparent;
   transition: 600ms ease;
   cursor: pointer;
+  border: 1px solid transparent;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 .main_title .full:hover {
   color: #ff79da;
@@ -599,6 +607,25 @@
   }
   .main_flatandprice:hover .main_flat-subtitle {
     width: 60%;
+  }
+
+  .full {
+    animation: shadow 1.5s ease-in-out infinite;
+  }
+
+  @keyframes shadow {
+    0% {
+      box-shadow: 0px 0px 0px 0px #ff79da;
+    }
+    33% {
+      box-shadow: 0px 0px 20px 2px #ff79da;
+    }
+    66% {
+      box-shadow: 0px 0px 20px 4px #9356dc;
+    }
+    100% {
+      box-shadow: 0px 0px 20px 6px #9356dc;
+    }
   }
 }
 .btn {
