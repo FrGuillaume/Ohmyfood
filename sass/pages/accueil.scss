@@ -224,8 +224,16 @@
     & .full {
       color: transparent;
       position: absolute;
-      top: 260px;
+      top: 244px;
+      right: 16px;
       transition: 400ms;
+      border: 1px solid transparent;
+      height: 30px;
+      width: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
       &:hover {
         color: $color-secondary;
       }
@@ -237,10 +245,6 @@
   .restaurants_cards {
     margin: 0;
     width: 20%;
-    transition: 0.7s ease-out;
-    &:hover {
-      transform: translateY(-100px) rotate(360deg);
-    }
   }
 
   .restaurants_title {

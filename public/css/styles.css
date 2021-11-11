@@ -239,8 +239,16 @@
 .restaurants_legend--icone .full {
   color: transparent;
   position: absolute;
-  top: 260px;
+  top: 244px;
+  right: 16px;
   transition: 400ms;
+  border: 1px solid transparent;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
 }
 .restaurants_legend--icone .full:hover {
   color: #ff79da;
@@ -250,10 +258,6 @@
   .restaurants_cards {
     margin: 0;
     width: 20%;
-    transition: 0.7s ease-out;
-  }
-  .restaurants_cards:hover {
-    transform: translateY(-100px) rotate(360deg);
   }
 
   .restaurants_title {
@@ -621,10 +625,10 @@
       box-shadow: 0px 0px 20px 2px #ff79da;
     }
     66% {
-      box-shadow: 0px 0px 20px 4px #9356dc;
+      box-shadow: 0px 0px 20px 4px #ff79da;
     }
     100% {
-      box-shadow: 0px 0px 20px 6px #9356dc;
+      box-shadow: 0px 0px 20px 6px #ff79da;
     }
   }
 }
