@@ -285,7 +285,7 @@
   }
 
   .full {
-    animation: shadow 1.5s ease-in-out infinite;
+    animation: shadow 1.5s running infinite;
   }
 
   @keyframes shadow {

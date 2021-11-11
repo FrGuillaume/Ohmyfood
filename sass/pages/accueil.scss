@@ -245,6 +245,9 @@
   .restaurants_cards {
     margin: 0;
     width: 20%;
+    &:hover {
+      transform: translateY(-30%);
+    }
   }
 
   .restaurants_title {

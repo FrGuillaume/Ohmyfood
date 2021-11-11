@@ -259,6 +259,9 @@
     margin: 0;
     width: 20%;
   }
+  .restaurants_cards:hover {
+    transform: translateY(-30%);
+  }
 
   .restaurants_title {
     display: flex;
@@ -614,7 +617,7 @@
   }
 
   .full {
-    animation: shadow 1.5s ease-in-out infinite;
+    animation: shadow 1.5s running infinite;
   }
 
   @keyframes shadow {
