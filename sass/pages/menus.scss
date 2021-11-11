@@ -71,7 +71,7 @@
     cursor: pointer;
     transition: 200ms ease-in-out;
     box-shadow: 0 0 5px 0 black;
-    &:hover {
+    &:active {
       transform: scale(1.02);
       box-shadow: 0 5px 6px black;
       & .main_price {
@@ -249,5 +249,30 @@
 
   .main_flatandprice {
     width: 100%;
+    &:hover {
+      transform: scale(1.02);
+      box-shadow: 0 5px 6px black;
+      & .main_price {
+        animation: slide-left 0.6s both;
+      }
+      & .main_icone {
+        background: $color-tertiary;
+        position: absolute;
+        border-radius: 0 25px 25px 0;
+        display: flex;
+        width: 15%;
+        animation: scale 0.6s both;
+        transform-origin: right;
+      }
+      & .main_icone i {
+        animation: rotate 400ms both;
+      }
+      & .main_flat-title {
+        width: 60%;
+      }
+      & .main_flat-subtitle {
+        width: 60%;
+      }
+    }
   }
 }
