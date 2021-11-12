@@ -32,6 +32,9 @@
       &:hover {
         color: $color-secondary;
       }
+      & span {
+        font-weight: lighter;
+      }
     }
   }
   &_logo {

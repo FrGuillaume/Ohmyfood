@@ -264,14 +264,14 @@
 
   .location {
     margin: auto;
-    width: 70%;
+    width: 100%;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.16);
     border-radius: 20px 20px 0 0;
   }
 
   .legend {
     margin: auto;
-    width: 70%;
+    width: 100%;
     box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.2);
     border-radius: 0 0 20px 20px;
     &_title {
@@ -284,15 +284,13 @@
   }
 
   .function {
-    box-shadow: inset 0px 6px 30px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     padding: 20px;
     width: 30%;
     margin: auto;
-    background: $background-location;
     &_item {
       &:hover {
-        transform: scale(1.1) translateX(50px);
+        transform: scale(1.09) translateX(30px);
       }
     }
   }
@@ -301,7 +299,7 @@
     font-size: 2rem;
   }
 
-  .opacity2 {
+  .opacity_card {
     animation: opacity 1s both;
   }
 }

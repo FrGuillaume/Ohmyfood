@@ -78,7 +78,7 @@
     position: relative;
     cursor: pointer;
     transition: 200ms ease-in-out;
-    box-shadow: 0 0 5px 0 black;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2);
     &:active {
       transform: scale(1.02);
       box-shadow: 0 5px 6px black;
@@ -285,21 +285,28 @@
   }
 
   .full {
-    animation: shadow 1.5s running infinite;
+    animation: shadow 1.5s ease;
+    animation-iteration-count: 3;
   }
 
   @keyframes shadow {
     0% {
       box-shadow: 0px 0px 0px 0px $color-secondary;
     }
-    33% {
-      box-shadow: 0px 0px 20px 2px $color-secondary;
+    20% {
+      box-shadow: 0px 0px 20px 3px $color-secondary;
     }
-    66% {
+    40% {
+      box-shadow: 0px 0px 20px 6px $color-secondary;
+    }
+    60% {
       box-shadow: 0px 0px 20px 4px $color-secondary;
     }
+    80% {
+      box-shadow: 0px 0px 20px 2px $color-secondary;
+    }
     100% {
-      box-shadow: 0px 0px 20px 6px $color-secondary;
+      box-shadow: 0px 0px 20px 0px $color-secondary;
     }
   }
 }
